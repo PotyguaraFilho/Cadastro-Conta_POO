@@ -2,18 +2,22 @@
 It consists of a bank account registration system with the functionalities of a CRUD, in Java (POO).
 
 Classe Conta: Esta classe é usada para representar uma conta bancária. Ela armazena duas informações principais:
+    
     numeroConta: O número da conta.
     saldoConta: O saldo da conta.
+
 Além disso, existem quatro métodos, dois para acessar (GET) e dois para modificar (SET) esses valores. Os métodos permitem obter o número da conta e o saldo da conta, enquanto os métodos permitem definir o número da conta e o saldo da conta.
 
 Classe CadastroDeContas: Aqui, temos uma classe que lida com o cadastro e gerenciamento de várias contas bancárias. Possui as seguintes partes:
 
 Atributos:
+    
     contas: Uma lista (como uma folha de papel com várias contas escritas) que armazena objetos do tipo Conta.
     qtdConta: Mantém o controle de quantas contas estão cadastradas.
     capacidade: Define o número máximo de contas que podem ser armazenadas na lista.
 
 Construtores:
+    
     CadastroDeContas(): Cria uma lista de contas com espaço para 10 contas por padrão.
     CadastroDeContas(int capacidade): Cria uma lista de contas com espaço para um número específico de contas, garantindo que seja pelo menos 5.
 
@@ -31,10 +35,10 @@ Método main(String[] args): É o ponto de partida do programa. Começa criando 
 
 Principal de loop - O programa oferece opções para o usuário:
 
-1.	Cadastrar uma nova conta com um número e saldo.
-2.	Procurar uma conta pelo número.
-3.	Excluir uma conta pelo número.
-4.	Mostrar quantas contas estão cadastradas.
-5.	Sair do programa.
+    1.	Cadastrar uma nova conta com um número e saldo.
+    2.	Procurar uma conta pelo número.
+    3.	Excluir uma conta pelo número.
+    4.	Mostrar quantas contas estão cadastradas.
+    5.	Sair do programa.
    
 O programa pede ao usuário que escolha uma opção, realiza a ação correspondente com base na escolha do usuário e depois pergunta se o usuário deseja fazer mais operações ou sair do programa.
